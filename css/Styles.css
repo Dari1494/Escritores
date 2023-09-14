@@ -1,0 +1,446 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'PT Serif', serif;
+    }
+
+
+    
+    body {max-width: 100%;}
+
+header {
+    height: 0px;
+    } 
+nav {
+    background-color: rgb(156, 16, 110);
+    display: flex;
+    height: 100px;
+    align-items: center;
+    align-content: center;
+    width: 1300px;
+    
+    
+}
+@media (min-width:1200px) {
+    nav {height: 80px;
+}
+}
+ul {
+   text-align:center;
+   display: flex;
+}
+
+.li-nav1 {
+    list-style: none;
+    font-size: 1rem;
+    margin: 3px;
+    text-align: center;
+}
+@media (min-width:1200px) {
+    .li-nav1 {
+        font-size: 2rem;
+    }
+}
+.li-nav1:hover {
+    background-color: violet;
+}
+a {
+    color: rgb(34, 21, 4);
+    text-decoration: none;
+    }
+main{
+    background-image: url(https://i.pinimg.com/originals/b8/28/fb/b828fbbf7739cbd346f4e39c6d5f2e86.jpg);
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    margin-top:70px;
+    color: silver;
+    font-size: 5rem;
+    text-decoration: underline;
+
+    }
+.poema {
+    margin-top: 70px;
+       }
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 40px;
+    color: silver;
+}
+.papel {
+    max-width: 100%;
+    width: 300px;
+    background-image: url(https://st.depositphotos.com/1897095/1664/i/950/depositphotos_16646501-stock-photo-grungy-paper-vignette.jpg);
+    background-repeat: no-repeat;
+    margin-top: 150px;
+}
+
+.remes{
+    height: 390px;
+    margin-left: 200px;
+    margin-bottom: 400px;
+}
+.poema-lovecraft {
+    align-content: space-around;
+    justify-content: center;
+    margin-right: 100px;
+        }
+.miedo {
+    width: 300px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: silver;
+}
+.div-escritores {
+   display: none;
+}
+h3 {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: silver;
+}
+.escritores {
+    display: block;
+}
+.horror{ 
+    display: block;
+    color: silver;
+    margin-right: 70px;
+    font-size: 2rem;
+}
+
+.cuervi {
+    margin-bottom: 50px;
+    height: 250px;
+    border-radius: 30px;
+}
+.paya {
+    height: 300px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    }
+.pulpi {
+    margin-bottom: 40px;
+    border-radius: 50px;
+}
+.agonia{
+    height: 250px;
+    margin-top: 90px;
+}
+.susto {
+    height: 110px;
+    width: 50%;
+    border: 5px solid gray;
+    background-color:  rgb(13, 96, 47);
+    border-radius: 40px;
+    margin-left: 65px;
+
+}
+.suscribe {
+    font-size: 1.5rem;
+    color: silver;
+    text-align: center;
+    margin-top: 10px;
+}
+.correo{
+    margin-top: 40px;
+}
+.enviar {
+    height: 35px;
+    width: 80px;
+    margin-bottom: 25px;
+}
+
+.pie {
+    height: 200px;
+    background-image: url(https://th.bing.com/th/id/R.9c640752554e4a736160aed684d0160e?rik=QhuiJvkmhaCL0g&riu=http%3a%2f%2fstatic8.depositphotos.com%2f1516135%2f982%2fi%2f950%2fdepositphotos_9828784-stock-photo-earthy-background-texture.jpg&ehk=5lu%2fr%2f1%2fEnJN1Nxxv3CyBaZr5oHrbgE6NIXmclER5xg%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 50px;
+    bottom: 80px;
+    }
+.p-pie {
+    font-size: 1.5rem;
+    }
+   
+    /* arranca pagina 1 */
+
+.body1 {
+    max-width: 100%;
+    width: 300px;
+    }
+.header1 {
+    height: 0px;
+    }  
+.nav1 {
+    background-color: rgb(156, 16, 110);
+    display: flex;
+    height: 50px;
+    align-items: center;
+    }
+.ul1 {
+    display: flex;
+    text-align:center;
+    }
+.li1 {
+    list-style: none;
+    font-size: 1rem;
+    margin: 3px;
+    }
+.li1:hover {
+    background-color: violet;
+    }
+.a1 {
+    color: rgb(34, 21, 4);
+    text-decoration: none;
+        }
+.main1 {
+    background-image: url(https://i.pinimg.com/originals/b8/28/fb/b828fbbf7739cbd346f4e39c6d5f2e86.jpg);
+    background-size: cover;
+    }
+.h1-1{
+    text-align: center;
+    margin-top: 50px;
+    color: silver;
+    font-size: 5rem;
+    text-decoration: underline;
+        }
+.reme1 {
+    height: 383px;
+    width: 400px;
+    display: flex;
+    margin-top: 20px;
+}
+.reme2 {
+    height: 300px;
+    width: 300px;
+    display:flex;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.pie {
+    height: 200px;
+    background-image: url(https://th.bing.com/th/id/R.9c640752554e4a736160aed684d0160e?rik=QhuiJvkmhaCL0g&riu=http%3a%2f%2fstatic8.depositphotos.com%2f1516135%2f982%2fi%2f950%2fdepositphotos_9828784-stock-photo-earthy-background-texture.jpg&ehk=5lu%2fr%2f1%2fEnJN1Nxxv3CyBaZr5oHrbgE6NIXmclER5xg%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 50px;
+    bottom: 80px;
+    }
+    .p-pie {
+        font-size: 1.5rem;
+    }
+    
+     /* arranca pagina 2 */
+     .body2 {
+        max-width: 100%;
+        width: 300px;
+        }
+    .header2  {
+        height: 0px;
+        }
+    .nav2 {
+        background-color: rgb(156, 16, 110);
+        display: flex;
+        height: 50px;
+        align-items: center;
+        }
+    .ul2 {
+        display: flex;
+        text-align:center;
+    }
+    .li2 {
+        list-style: none;
+        font-size: 1rem;
+        margin: 3px;
+    }
+    .li2:hover {
+        background-color: violet;
+    }
+    .a2 {
+        color: rgb(34, 21, 4);
+        text-decoration: none;
+        }
+    .main2 {
+        background-image: url(https://i.pinimg.com/originals/b8/28/fb/b828fbbf7739cbd346f4e39c6d5f2e86.jpg);
+        background-size: cover;
+    }
+    .h1.2 {
+        text-align: center;
+        color: silver;
+        font-size: 10rem;
+        margin-top: 40px;
+        height: 150%;
+        text-decoration: underline;
+    }
+    .h2.1 {
+        text-align: center;
+    font-size: 4rem;
+    margin-bottom: 40px;
+    color: silver;
+    }
+    .buzo-paya1 {
+        height: 300px;
+        width: 300px;
+        display: flex;
+        margin-top: 20px;
+    }
+    .buzo-paya2 {
+        height: 500px;
+        width: 400px;
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+    .pie {
+        height: 200px;
+        background-image: url(https://th.bing.com/th/id/R.9c640752554e4a736160aed684d0160e?rik=QhuiJvkmhaCL0g&riu=http%3a%2f%2fstatic8.depositphotos.com%2f1516135%2f982%2fi%2f950%2fdepositphotos_9828784-stock-photo-earthy-background-texture.jpg&ehk=5lu%2fr%2f1%2fEnJN1Nxxv3CyBaZr5oHrbgE6NIXmclER5xg%3d&risl=&pid=ImgRaw&r=0);
+        background-size: cover;
+        font-size: 3rem;
+        text-align: center;
+        padding-top: 50px;
+        bottom: 80px;
+        }
+        .p-pie {
+            font-size: 1.5rem;
+        }
+
+  /* arranca pagina 3 */ 
+  .body3 {
+    max-width: 100%;
+    width: 300px;
+}      
+  .header3  {
+    height: 0px;
+    } 
+.nav3 {
+    background-color: rgb(156, 16, 110);
+    display: flex;
+    height: 50px;
+    align-items: center;
+    }
+.ul3 {
+    display: flex;
+    text-align:center;
+}
+.li3 {
+    list-style: none;
+    font-size: 1rem;
+    margin: 3px;
+}
+.li3:hover {
+    background-color: violet;
+}
+.a3 {
+    color: rgb(34, 21, 4);
+    text-decoration: none;
+    }
+.main3 {
+    background-image: url(https://i.pinimg.com/originals/b8/28/fb/b828fbbf7739cbd346f4e39c6d5f2e86.jpg);
+    background-size: cover;
+}
+   /* arranca pagina 4 */
+.header4  {
+    height: 0px;
+    }  
+.nav4 {
+    background-color: rgb(156, 16, 110);
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+.ul4 {
+    display: flex;
+    text-align:center;
+}
+.li4 {
+    list-style: none;
+    font-size: 1rem;
+    margin: 3px;
+}
+.li4:hover {
+    background-color: violet;
+}
+.a4 {
+    color: rgb(34, 21, 4);
+    text-decoration: none;
+    }
+.main4 {
+    background-image: url(https://i.pinimg.com/originals/b8/28/fb/b828fbbf7739cbd346f4e39c6d5f2e86.jpg);
+    background-size: cover;
+}
+.h1.4 {
+    text-align: center;
+    color: silver;
+    font-size: 10rem;
+    margin-top: 40px;
+    height: 150%;
+    text-decoration: underline;
+}
+.h2.3 {
+    text-align: center;
+font-size: 4rem;
+margin-bottom: 40px;
+color: silver;
+}
+form {
+    width: 256px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: aliceblue;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  .pie {
+    height: 200px;
+    background-image: url(https://th.bing.com/th/id/R.9c640752554e4a736160aed684d0160e?rik=QhuiJvkmhaCL0g&riu=http%3a%2f%2fstatic8.depositphotos.com%2f1516135%2f982%2fi%2f950%2fdepositphotos_9828784-stock-photo-earthy-background-texture.jpg&ehk=5lu%2fr%2f1%2fEnJN1Nxxv3CyBaZr5oHrbgE6NIXmclER5xg%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 50px;
+    bottom: 80px;
+    }
+    .p-pie {
+        font-size: 1.5rem;
+    }
